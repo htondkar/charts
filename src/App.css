@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+.App-header {
+    background-color: #222;
+    height: 80px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#main-form {
+    margin-left: 10px;
+    /*display: inline-block;*/
+    direction: rtl;
+}
+
+#main-form input, select {
+    direction: ltr;
+    width: 180px
+}
+
+.result {
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+#main-form>div {
+    margin: 15px 0;
+}
+
+#main-form label {
+    width: 250px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#main-form input[type='submit'] {
+    font-family: 'tahoma';
+    display: block;
+    width: 200px;
+}
